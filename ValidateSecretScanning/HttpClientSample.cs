@@ -13,7 +13,7 @@ namespace ValidateSecretScanning
         {
             using (var client = new HttpClient())
             {
-                var token = "RfeyoeHI+gK5JoqQ/6+kZn46DIA//wUxNDmJNeEoCbE=";
+                var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
                 client.DefaultRequestHeaders.Add("x-token", token);
                 var result = await client.GetAsync("https://httpstat.us/200");
                 return result.StatusCode;
