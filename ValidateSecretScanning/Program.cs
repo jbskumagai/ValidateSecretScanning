@@ -3,4 +3,4 @@ using ValidateSecretScanning;
 
 Console.WriteLine("Hello, World!");
 var client = new HttpClientSample();
-Console.WriteLine(await client.Get());
+Console.WriteLine($"StatusCode : {await client.Get()}");
