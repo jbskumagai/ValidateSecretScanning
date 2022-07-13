@@ -1,0 +1,5 @@
+# ValidateSecretScanning
+I Love token!
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Inl1dGFrdW1hZ2FpIiwiaWF0IjoxNTE2MjM5MDIyfQ.HI8V5URfTAUZVZcGhwckTus54J6_hJ2_YTLFTmYvLiU
+```
